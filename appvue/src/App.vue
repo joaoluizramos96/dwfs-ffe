@@ -2,7 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Hello, friend!" />
-    <NovoComponente texto="Este é o texto para o parágrafo!" />
+    <NovoComponente texto="A diretiva v-text permite a apresentação de textos, tal como ocorre quando usamos diretivas diretas." />
   </div>
 </template>
 
