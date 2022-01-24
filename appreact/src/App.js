@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import {Ola} from './Ola';
 
 function App() {
+
+  const name='João das Neves';
+  const elemento = <h1>Olá {name}</h1>;
+
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +14,8 @@ function App() {
         <p>
           Edite <code>src/App.js</code> e salve para recarregar.
         </p>
+        <Ola nomecompleto='João Luiz' nomemae='Luciana'/>
+        {elemento}
         <a
           className="App-link"
           href="https://reactjs.org"
